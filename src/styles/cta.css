@@ -1,0 +1,24 @@
+.cta{
+    padding: 100px 40px;
+    background: linear-gradient(rgba(#38bdf8, #22d3ee));
+    color: #020617;
+    text-align: center;
+}
+
+.cta h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.cta p{
+    color: aliceblue;
+}
+
+.cta button{
+    margin-top: 30px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

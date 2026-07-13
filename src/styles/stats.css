@@ -1,0 +1,17 @@
+.stats{
+    display: flex;
+    justify-content: space-around;
+    padding:80px 40px;
+    background: #6e9874;
+    text-align: center;
+}
+
+.stats h3{
+    font-size: 36px;
+    color: #ffdf8e;
+}
+
+.stats p{
+    margin-top: 10px;
+    color: #0b230b;
+}

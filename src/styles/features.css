@@ -1,0 +1,34 @@
+.features {
+    padding: 100px 60px;
+    background: #AD9574;
+    text-align: center;
+}
+
+.features h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.feature-card{
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover{
+    transform: translateY(-8px);
+    background: rgba(255,255,255,0.08);
+}
+
+section {
+    scroll-margin-top: 80px;
+}
